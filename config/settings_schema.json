@@ -14,9 +14,54 @@
         "type": "color",
         "id": "navbarColor",
         "label":"Navbar background",
-        "default": "#000"
+        "default": "#fff"
       }
 
+    ]
+  },
+  {
+    "name":"Header Settings",
+    "settings":[
+      {
+        "type":"image_picker",
+        "id":"sitelogo",
+        "label":"Site Logo"
+
+      },
+      {
+        "type":"text",
+        "id":"textlogo",
+        "label":"Text Logo",
+        "default":"My Store"
+
+      },
+     
+      {
+        "type":"range",
+        "id":"logoSize",
+        "min": 60,
+        "max":120,
+        "step":1,
+        "unit": "px",
+        "label":"Logo Size",
+        "default":70
+      },
+      {
+        "type":"image_picker",
+        "id":"favicon",
+        "label":"Favicon"
+      }
+    ]
+  },
+  {
+    "name":"Page Title Hide/Show",
+    "settings":[
+       {
+          "type":"checkbox",
+          "id":"hideTitle",
+          "label":"Hide Page Title",
+          "default":false
+       }
     ]
   }
 ]
